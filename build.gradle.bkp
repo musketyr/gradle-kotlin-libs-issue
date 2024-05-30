@@ -1,0 +1,16 @@
+plugins {
+    id 'com.agorapulse.gradle.root-project'
+}
+
+gradleProjects {
+    subprojects {
+        dir('libs') {
+            repositories {
+                mavenCentral()
+            }
+            dependencies {
+                implementation libs.commonsLang
+            }
+        }
+    }
+}
