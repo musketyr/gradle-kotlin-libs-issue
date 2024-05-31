@@ -4,7 +4,7 @@ plugins {
     id("com.agorapulse.gradle.root-project")
 }
 
-extensions.configure<ProjectsExtension> {
+gradleProjects {
     subprojects {
         dir("libs") {
             repositories {
