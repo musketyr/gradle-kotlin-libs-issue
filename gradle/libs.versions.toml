@@ -6,3 +6,6 @@ commons-lang-version = "3.13.0"
 
 [libraries]
 commonsLang = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commons-lang-version" }
+
+[plugins]
+root = { id = "com.agorapulse.gradle.root-project" }
