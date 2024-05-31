@@ -7,5 +7,5 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.commonsLang)
+    implementation(versionCatalogs.named("libs").findLibrary("commonsLang"))
 }

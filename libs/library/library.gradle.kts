@@ -1,3 +1,3 @@
 plugins {
-    `commond-dependencies`
+    my.`common-dependencies`
 }
